@@ -1,12 +1,12 @@
 {
-  "name": "particle",
+  "name": "Asterisk Pound Home Page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Nathan Randecker",
+  "author": "Alan Asher",
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.18.6",

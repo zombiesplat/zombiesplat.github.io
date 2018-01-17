@@ -1,26 +1,6 @@
-# Particle Jekyll Theme
+# Asterisk Pound Main Page
 
-![](./particle.jpg)
-
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
-
-The Theme features:
-
-- Gulp
-- SASS
-- Sweet Scroll
-- Particle.js
-- BrowserSync
-- Font Awesome and Devicon icons
-- Google Analytics
-- Info Customization
-
-## Basic Setup
-
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Particle Theme](https://github.com/nrandecker/particle/fork)
-3. Clone the repo you just forked.
-4. Edit `_config.yml` to personalize your site.
+http://www.asteriskpound.com
 
 ## Site and User Settings
 
