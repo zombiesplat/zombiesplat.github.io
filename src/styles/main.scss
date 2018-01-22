@@ -1,6 +1,7 @@
-@import "lib/normalize";
-@import "lib/fontawesome";
-@import "lib/devicon";
+@import "node_modules/font-awesome/scss/font-awesome";
+@import "vendor/devicon/devicon";
+@import "vendor/devicon/devicon-colors";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 @import 'base';
 @import 'vars';
