@@ -43,7 +43,7 @@ gulp.task('browser-sync', ['jekyll-build'], function () {
 gulp.task('sass', function () {
     gulp.src('node_modules/devicon-2.2/devicon.css')
         .pipe(gulp.dest('src/styles/vendor/devicon/'));
-    gulp.src('node_modules/devicon-2.2/devicon.css')
+    gulp.src('node_modules/devicon-2.2/devicon-colors.css')
         .pipe(gulp.dest('src/styles/vendor/devicon/'));
     gulp.src('src/styles/**/*.scss')
         .pipe(plumber())
