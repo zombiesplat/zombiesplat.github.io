@@ -17,8 +17,8 @@
     <div class="row">
         <div class="col-md-6 order-md-{% if toggle == true %}2{% else %}1{% endif %}">
         {% if post.cover %}
-        <a class="post-card-image-link" href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">
-            <img class="img-fluid pt-5" alt="" src="{{ site.baseurl }}{{ post.cover }}" />
+        <a class="post-card-image-link" href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">
+            <img class="img-fluid pt-5" alt="" src="{{ site.baseurl }}/{{ post.cover }}" />
         </a>
         {% endif %}
         </div>
