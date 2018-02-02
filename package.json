@@ -1,18 +1,27 @@
 {
   "private": true,
   "dependencies": {
+    "autoprefixer": "^6.3.6",
     "bootstrap": "^4.0.0",
     "browser-sync": "^2.18.6",
+    "cssnano": "^3.7.1",
     "devicon-2.2": "^2.2.0",
     "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^2.0.0",
     "gulp-imagemin": "^3.1.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.0.0",
     "jquery": "^3.2.1",
-    "popper.js": "^1.12.9"
+    "popper.js": "^1.12.9",
+    "postcss-color-function": "^2.0.1",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-easy-import": "^1.0.1"
   }
 }
