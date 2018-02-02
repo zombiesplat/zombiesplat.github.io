@@ -14,6 +14,5 @@ I've been practicing Scrum on different teams since 2013. I'll admit that I didn
 
 ~Don't crowd your plants, they need sunlight to grow.
 
-Please validate my certification by visiting 
-[https://www.scrumalliance.org/community/profile/aasher5](https://www.scrumalliance.org/community/profile/aasher5)
+Please validate my certification by visiting [The Scrum Alliance](https://www.scrumalliance.org/community/profile/aasher5)
 
