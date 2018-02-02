@@ -1,49 +1,32 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12 text-center">
-            <h1> My Projects and Ideas</h1>
+            <h1>
+                My Projects and Ideas
+            </h1>
         </div>
     </div>
+    {% comment %}after establishing some content and tagging blog articles with project and idea, refactor this to only show blogs with those tags{% endcomment %}
+    {% assign toggle = true %}
+    {% for post in site.posts %}
+    {% if toggle != true %}
+    {% assign toggle = true %}
+    {% else %}
+    {% assign toggle = false %}
+    {% endif %}
     <div class="row">
-        <div class="col-md-6 order-md-2">
-            <img class="img-fluid pt-md-5" alt="golf tournament" src="{{ "/assets/img/golfHeader.jpg" | prepend: site.baseurl }}" />
+        <div class="col-md-6 order-md-{% if toggle == true %}2{% else %}1{% endif %}">
+        {% if post.cover %}
+        <a class="post-card-image-link" href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">
+            <img class="img-fluid pt-5" alt="" src="{{ site.baseurl }}{{ post.cover }}" />
+        </a>
+        {% endif %}
         </div>
-        <div class="col-md-6 order-md-1">
-            <h3 class="pt-3">Raffle Tools</h3>
-            <ul>
-                <li>Non Profit Fundraising Toolbox</li>
-            </ul>
-            <p>
-                Problem: Your non profit organization needs to make the most out of its raffle to maximize return on
-                effort. Volunteer staff is limited and you need the people you do have to be efficient.
-            </p>
-            <p>
-                Solution: An app that links event organizers, event workers and patrons together seamlessly. Offering
-                your organization the ability to collect data about participation levels and offering the patrons an
-                engaging experience.
-            </p>
-            <!--<a class="project-link btn" href="#" role="button">Check it out</a>-->
+        <div class="col-md-6 order-md-{% if toggle == true %}1{% else %}2{% endif %}">
+            <h3 class="pt-3 pt-sm-5">{{ post.title }}</h3>
+            <p>{{ post.content | strip_html | truncatewords: 33, "" }}</p>
+            <a class="project-link btn" href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}" role="button">Read More</a>
         </div>
     </div>
-    <!--<div class="row mt-4">-->
-        <!--<div class="col-md-6 order-md-1">-->
-            <!--<img class="img-fluid pt-md-5" alt="golf tournament" src="{{ "/assets/img/golfHeader.jpg" | prepend: site.baseurl }}" />-->
-        <!--</div>-->
-        <!--<div class="col-md-6 order-md-2">-->
-            <!--<h3 class="pt-3">Raffle Tools</h3>-->
-            <!--<ul>-->
-                <!--<li>Non Profit Fundraising Toolbox</li>-->
-            <!--</ul>-->
-            <!--<p>-->
-                <!--Problem: Your golf tournament is a fundraiser, but everyone is busy networking and golfing that the-->
-                <!--fundraising takes a back seat.-->
-            <!--</p>-->
-            <!--<p>-->
-                <!--Solution: During registration, participants download the app or register a phone number for SMS alerts.-->
-                <!--Each hole's sponsor can interact with the foursome via the app. Participants receive updates of bids or wins-->
-                <!--immediately. Everyone can stay engaged with the fundraising while never leaving the course.-->
-            <!--</p>-->
-            <!--<a class="project-link btn" href="#" role="button">Check it out</a>-->
-        <!--</div>-->
-    <!--</div>-->
+    {% endfor %}
 </div>

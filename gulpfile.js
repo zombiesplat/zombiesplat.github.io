@@ -10,6 +10,25 @@ var browserSync = require('browser-sync');
 
 var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
 
+var gutil = require('gulp-util');
+var livereload = require('gulp-livereload');
+
+var postcss = require('gulp-postcss');
+var sourcemaps = require('gulp-sourcemaps');
+
+// postcss plugins
+var autoprefixer = require('autoprefixer');
+var colorFunction = require('postcss-color-function');
+var cssnano = require('cssnano');
+var customProperties = require('postcss-custom-properties');
+var easyimport = require('postcss-easy-import');
+
+var swallowError = function swallowError(error) {
+    gutil.log(error.toString());
+    gutil.beep();
+    this.emit('end');
+};
+
 /*
  * Build the Jekyll Site
  * runs a child process in node that runs the jekyll commands
@@ -50,6 +69,24 @@ gulp.task('sass', function () {
         .pipe(sass())
         .pipe(csso())
         .pipe(gulp.dest('assets/css/'));
+});
+
+gulp.task('css', function () {
+    var processors = [
+        easyimport,
+        customProperties,
+        colorFunction(),
+        autoprefixer({browsers: ['last 2 versions']}),
+        cssnano()
+    ];
+
+    return gulp.src('assets/css/*.css')
+        .on('error', swallowError)
+        .pipe(sourcemaps.init())
+        .pipe(postcss(processors))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('assets/built/'))
+        .pipe(livereload());
 });
 
 /*
@@ -97,4 +134,4 @@ gulp.task('watch', function () {
     gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], ['jekyll-rebuild']);
 });
 
-gulp.task('default', ['js', 'sass', 'fonts', 'browser-sync', 'watch']);
+gulp.task('default', ['js', 'sass', 'css', 'fonts', 'browser-sync', 'watch']);
