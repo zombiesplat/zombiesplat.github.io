@@ -44,6 +44,6 @@ Accomplishments: ['']
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-113478195-1"
 
 exclude: ['package.json', 'src', 'node_modules', '.idea']
