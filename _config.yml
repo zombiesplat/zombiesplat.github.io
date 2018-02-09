@@ -7,7 +7,7 @@ language: 'en-us'
 cover: assets/images/blog-cover.jpg
 logo: assets/images/logo.png
 long_logo: assets/images/blog-icon.png
-logo_dark: assets/images/logo.png
+logo_dark: assets/images/logo-dark.png
 favicon: assets/images/favicon.png
 production_url: http://asteriskpound.com/
 source_url: http://asteriskpound.com/
