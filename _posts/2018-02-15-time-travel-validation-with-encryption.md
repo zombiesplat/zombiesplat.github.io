@@ -66,8 +66,8 @@ one who claims to be from the future, I came up with a solution to know in a rel
 I will attempt to forgo the gritty details about why the current implementation of AES 256 bit encryption is a great
 candidate for this task, just know that at there is a 1 in 2^256 chance of 2 computers creating the same key. Or another
 way to say that is 1 in 1.1579209e+77 which is 1 with 77 zeros after it That's pretty close to a googol. Keep reading
-on the subject here [https://en.wikipedia.org/wiki/Power_of_10](https://en.wikipedia.org/wiki/Power_of_10) and
-[https://en.wikipedia.org/wiki/Advanced_Encryption_Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+on the subject [here](https://en.wikipedia.org/wiki/Power_of_10) and
+[here](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
 
 Here's the flow of events in chronological order. 
 
