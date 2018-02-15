@@ -1913,3 +1913,27 @@ Usage (In Ghost editor):
         margin-left: 0;
     }
 }
+
+
+/** Video fluidity **/
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe,
+.videoWrapper object,
+.videoWrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+video {
+    width: 100%    !important;
+    height: auto   !important;
+}
+figure { display: block; background: #eee; padding: 10px; }
+figcaption { display: block; text-align: center; margin: 10px 0; font-style: italic; font-size: 14px; orphans: 2; }
