@@ -102,8 +102,10 @@ into the {body} of the default.hbs template -->
                     >
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; {{ site.title }} &mdash;</small>
+                            {% if false %}
                             {% if primary %}
                                 <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}/tag/{{ primary | downcase | replace: ' ', '-' }}/">{{ primary | capitalize }}</a></h3>
+                            {% endif %}
                             {% endif %}
                         </header>
                         <div class="read-next-divider">{% include infinity.html %}</div>
