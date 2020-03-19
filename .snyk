@@ -1,0 +1,149 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - browser-sync > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-livereload > mini-lr > body-parser > debug:
+        patched: '2020-03-19T05:57:51.440Z'
+  'npm:extend:20180424':
+    - gulp > liftoff > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - browser-sync > localtunnel > request > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-sass > node-sass > request > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-sass > node-sass > node-gyp > request > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > request > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > liftoff > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > proper-lockfile > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > jspm-github > request > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > jspm-npm > request > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-19T05:57:51.440Z'
+  'npm:hoek:20180212':
+    - gulp-sass > node-sass > request > hawk > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-sass > node-sass > request > hawk > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-sass > node-sass > request > hawk > sntp > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-sass > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > request > hawk > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > request > hawk > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > request > hawk > sntp > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > jspm-npm > request > hawk > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > jspm-npm > request > hawk > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > sntp > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > jspm-npm > request > hawk > sntp > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > jspm-npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-19T05:57:51.440Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2020-03-19T05:57:51.440Z'
+  'npm:ms:20170412':
+    - gulp-livereload > mini-lr > body-parser > debug > ms:
+        patched: '2020-03-19T05:57:51.440Z'
+  'npm:stringstream:20180511':
+    - browser-sync > localtunnel > request > stringstream:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-sass > node-sass > request > stringstream:
+        patched: '2020-03-19T05:57:51.440Z'
+    - gulp-sass > node-sass > node-gyp > request > stringstream:
+        patched: '2020-03-19T05:57:51.440Z'
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > request > stringstream:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > jspm-github > request > stringstream:
+        patched: '2020-03-19T05:57:51.440Z'
+    - postcss-easy-import > postcss-import > pkg-resolve > jspm > jspm-npm > request > stringstream:
+        patched: '2020-03-19T05:57:51.440Z'
+  'npm:tough-cookie:20170905':
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-03-19T05:57:51.440Z'
+  'npm:tunnel-agent:20170305':
+    - gulp-sass > node-sass > request > tunnel-agent:
+        patched: '2020-03-19T05:57:51.440Z'
