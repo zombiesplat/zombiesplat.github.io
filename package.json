@@ -1,7 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "autoprefixer": "^6.3.6",
+    "autoprefixer": "^6.7.7",
     "bootstrap": "^4.0.0",
     "browser-sync": "^2.18.6",
     "cssnano": "^3.7.1",
