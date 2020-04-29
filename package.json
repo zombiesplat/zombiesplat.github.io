@@ -18,7 +18,7 @@
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.0.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.12.9",
     "postcss-color-function": "^2.0.1",
     "postcss-custom-properties": "^5.0.1",
