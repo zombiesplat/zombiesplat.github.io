@@ -16,14 +16,14 @@ permissions:
 
 jobs:
   build:
+    env:
+      SITE_URL=https://asteriskpound.com
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v5
       - name: Install, build, and upload your site
         uses: withastro/action@v5
-        env:
-          SITE_URL=https://asteriskpound.com
 
           # with:
           # path: . # The root location of your Astro project inside the repository. (optional)
