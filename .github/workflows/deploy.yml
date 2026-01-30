@@ -16,7 +16,8 @@ permissions:
 
 jobs:
   build:
-    SITE_URL: https://asteriskpound.com
+    env:
+      SITE_URL: https://asteriskpound.com
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
