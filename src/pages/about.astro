@@ -1,0 +1,98 @@
+---
+import MarketingLayout from '@/layouts/MarketingLayout.astro';
+import PageHeader from '@sections/content/PageHeader.astro';
+import StatsSection from '@sections/social-proof/StatsSection.astro';
+import VideoEmbed from '@sections/content/VideoEmbed.astro';
+import ValuesSection from '@sections/team/ValuesSection.astro';
+import TeamSection from '@sections/team/TeamSection.astro';
+import ContentSection from '@sections/content/ContentSection.astro';
+import CTA from '@sections/marketing/CTA.astro';
+import { siteConfig } from '@/config';
+
+const team = [
+  {
+    name: 'Zombie Splat',
+    role: 'Developer & Creator',
+    bio: 'Passionate about software development and building cool things on the web. Welcome to my devlog!',
+    avatar: '/images/team/zombiesplat-profile-square.png',
+  },
+];
+
+const values = [
+  {
+    title: 'Continuous Learning',
+    description:
+      'The best part about being a developer is that there is always something new to learn. I document my process here.',
+  },
+  {
+    title: 'Open Source',
+    description:
+      "I believe in sharing knowledge and code. Many of my projects are open source and available for everyone to learn from.",
+  },
+  {
+    title: 'Quality Craft',
+    description:
+      'Whether it is a game or a web app, I strive for clean code and a great user experience.',
+  },
+  {
+    title: 'Game Development',
+    description:
+      "I'm currently focused on learning and sharing my journey in game development, from prototypes to finished projects.",
+  },
+];
+
+---
+
+<MarketingLayout
+  title={`About - ${siteConfig.name}`}
+  description="Learn about the journey of Asterisk Pound in software engineering and game development."
+>
+  <PageHeader title="Welcome to my devlog and showcase" align="left" maxWidth="lg">
+    <p class="mt-6 text-lg text-text-muted leading-relaxed">
+      I've had this domain for 19 years, and it's finally time to give it a purpose other than email. Asterisk Pound is where I chronicle my journey in development, game development and showcase my various projects.
+    </p>
+    <p class="mt-4 text-lg text-text-muted leading-relaxed">
+      Soon, I'll be launching a YouTube channel to share more in-depth look at my process. For now, this site serves as my digital garden and portfolio.
+    </p>
+  </PageHeader>
+
+  <VideoEmbed
+    title="Coming Soon: YouTube Journey"
+    subtitle="I'm preparing to launch a channel to share my game development journey."
+    videoId="dQw4w9WgXcQ"
+    provider="youtube"
+    maxWidth="lg"
+    background="muted"
+  />
+
+  <ValuesSection
+    title="My focus"
+    items={values}
+    variant="card"
+    columns={2}
+    background="default"
+  />
+
+  <TeamSection
+      title="The person behind the screen"
+      members={team}
+      columns={1}
+      background="muted"
+  />
+
+  <ContentSection
+    title="My Journey"
+    content={[
+      "Asterisk Pound has been a name I've held onto for a long time. It represents my passion for technology and creativity.",
+      "As I dive deeper into game development, I wanted a place to record my progress, the challenges I face, and the solutions I find. This site is exactly that.",
+    ]}
+    background="default"
+  />
+
+  <CTA
+    title="Let's connect"
+    description="Have a question or want to collaborate on a project? I'd love to hear from you."
+    action={{ label: 'Get in Touch', href: '/contact' }}
+    background="muted"
+  />
+</MarketingLayout>

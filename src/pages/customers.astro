@@ -1,0 +1,35 @@
+---
+import MarketingLayout from '@/layouts/MarketingLayout.astro';
+import PageHeader from '@sections/content/PageHeader.astro';
+import CaseStudyCard from '@sections/social-proof/CaseStudyCard.astro';
+import LogoCloud from '@sections/marketing/LogoCloud.astro';
+import StatsSection from '@sections/social-proof/StatsSection.astro';
+import CTA from '@sections/marketing/CTA.astro';
+import { siteConfig } from '@/config';
+
+const stats = [
+  { value: '10,000+', label: 'Companies trust Virex' },
+  { value: '99.99%', label: 'Average uptime' },
+  { value: '50M+', label: 'Deployments per month' },
+  { value: '200+', label: 'Edge locations' },
+];
+---
+
+<MarketingLayout
+  title={`Customer Stories - ${siteConfig.name}`}
+  description="See how companies of all sizes use Virex to deploy faster, scale effortlessly, and deliver better experiences."
+>
+  <PageHeader
+    title="Customer Stories"
+    subtitle="See how teams around the world use Virex to ship faster and scale with confidence."
+  />
+
+  <StatsSection stats={stats} background="muted" />
+
+  <CTA
+    title="Ready to join them?"
+    description="Start deploying with Virex today and see the difference for yourself."
+    action={{ label: 'Start Free Trial', href: '/register' }}
+    background="muted"
+  />
+</MarketingLayout>

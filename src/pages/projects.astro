@@ -1,0 +1,76 @@
+---
+import MarketingLayout from '@/layouts/MarketingLayout.astro';
+import PageHeader from '@sections/content/PageHeader.astro';
+import FeatureHighlight from '@sections/marketing/FeatureHighlight.astro';
+import CTA from '@sections/marketing/CTA.astro';
+import { siteConfig } from '@/config';
+
+const highlightedFeatures = [
+  // {
+  //   title: 'Preview Deployments for Every PR',
+  //   description:
+  //     'Every pull request automatically gets its own unique preview URL. Share with your team, get feedback from stakeholders, and merge with confidence knowing exactly what will go live.',
+  //   image: '/images/features/preview-deploy.webp',
+  //   badge: 'Most Popular',
+  //   highlights: [
+  //     'Automatic deployment on every push',
+  //     'Unique URL for each pull request',
+  //     'Comment integration with GitHub/GitLab',
+  //     'Password protection for sensitive previews',
+  //   ],
+  //   cta: { label: 'Learn about previews', href: '/docs/previews' },
+  // },
+  {
+    title: 'Prelien Pro Technologies',
+    description:
+      'An app that guides you through the process of generating preliminary notice documents for the construction industry, and makes the process of amendments from change orders simple to complete.',
+    image: '/images/projects/prelien-pro.png',
+    badge: 'Laravel & Vue',
+    highlights: [
+      'Preliminary notice generation',
+      'Change order amendment workflow',
+      'Simplified construction documentation',
+      'Enterprise-grade Laravel backend',
+    ],
+    cta: { label: 'Visit prelienpro.com', href: 'https://prelienpro.com' },
+  },
+  {
+    title: 'DCI Scores',
+    description:
+      'A simplified view of scores for the drum and bugle corps competitions every summer. Providing fans with a clean, easy-to-read interface for tracking their favorite corps.',
+    image: '/images/projects/dci-scores.png',
+    badge: 'Laravel & Bootstrap',
+    highlights: [
+      'Real-time score tracking',
+      'Historical competition data',
+      'Mobile-responsive interface',
+      'Performance-optimized data delivery',
+    ],
+    cta: { label: 'Visit dciscores.com', href: 'https://dciscores.com' },
+  },
+];
+---
+
+<MarketingLayout
+  title={`Projects - ${siteConfig.name}`}
+  description="A showcase of projects developed by Asterisk Pound, featuring work in construction tech and competitive arts."
+>
+  <PageHeader
+    title="My Projects"
+    subtitle="A selection of applications I've built, focusing on solving real-world problems with elegant software solutions."
+  />
+
+  <FeatureHighlight
+    title="Featured Work"
+    subtitle="Two major projects that showcase my experience in full-stack development and industry-specific solutions."
+    features={highlightedFeatures}
+    background="muted"
+  />
+
+  <CTA
+    title="Want to see more?"
+    description="I'm always working on something new. Check out my GitHub for more open-source experiments and projects."
+    action={{ label: 'Follow on GitHub', href: siteConfig.social.github }}
+    background="muted"
+  />
+</MarketingLayout>

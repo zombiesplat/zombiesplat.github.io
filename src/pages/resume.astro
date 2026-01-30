@@ -1,0 +1,322 @@
+---
+import MarketingLayout from '@/layouts/MarketingLayout.astro';
+import { siteConfig } from '@/config';
+import { Icon } from 'astro-icon/components';
+import { Deobfuscator } from '@/components/ui/Deobfuscator';
+
+const title = `Resume - Alan Asher`;
+const description = "Professional resume of Alan Asher, Senior Software Engineering Manager and Senior Software Engineer.";
+
+const experience = [
+  {
+    company: "Elevate PFS",
+    location: "Remote",
+    role: "Senior Full Stack Software Engineer",
+    period: "03/25 - Present",
+    achievements: [
+      "Modernization effort, introducing async processing that lifted throughput by 30%.",
+      "Instituted OWASP security hardening checklist adopted organization-wide.",
+      "Lead the effort to create a functional testing suite and include it on the CI/CD pass/fail pipeline.",
+      "De-monolith’d a 33,000 line php script by using OOP and separation of domain logic into classes."
+    ]
+  },
+  {
+    company: "VirtualHealth / Elligint Health",
+    location: "Remote",
+    role: "Senior Software Engineer",
+    period: "08/24 - 02/25",
+    achievements: [
+      "Creation of Single Sign On (SSO) solutions with Okta, Azure and other identity providers to the platform.",
+      "Enhancement of the SSO platform to act as an identity provider to other service providers.",
+      "Developed and maintained the web application using Symfony PHP and a mix of vanilla plus react javascript for front end.",
+      "Attained an NBIS (formerly eQIP) Public Trust certification to work on federal systems."
+    ]
+  },
+  {
+    company: "Blockskye Inc",
+    location: "Remote",
+    role: "Lead Full Stack Software Engineer",
+    period: "04/24 - 08/24",
+    achievements: [
+      "Managed a 6-engineer squad delivering a multi-tenant reporting platform; introduced GitFlow, cutting branch overhead by 75%.",
+      "Championed the project to onboard new clients historical data with a multi-threaded, fault-tolerant import solution reducing total time from 4 days to 10 hours.",
+      "Coordinated API v2 rollout with early-access clients, meeting a 6-week deadline.",
+      "Adopted Scrum, boosting sprint velocity from 40 to 120 points."
+    ]
+  },
+  {
+    company: "Cerebrum",
+    location: "Arizona (Remote)",
+    role: "Lead Full Stack Software Engineer",
+    period: "10/20 - 02/24",
+    achievements: [
+      "Built a SaaS DNA-risk assessment product; grew product from whiteboard design idea to full MVP.",
+      "Led the transformation of a legacy PHP system to a Laravel-based backend with advanced queue management; optimized performance by 30%.",
+      "Implemented CI/CD pipelines, increasing team productivity by 30% and code coverage by 70%.",
+      "Orchestrated the adoption of Scrum framework across teams; tripled sprint velocity from 40 to 120 points."
+    ]
+  },
+  {
+    company: "RxMG",
+    location: "California (Remote)",
+    role: "Lead Full Stack Software Engineer",
+    period: "02/19 - 10/20",
+    achievements: [
+      "Directed 5 concurrent projects and a distributed team of 8 engineers, acting as the primary technical liaison.",
+      "Architected a distributed multi-server infrastructure processing millions of daily API posts, increasing sales conversions by 33%.",
+      "Instituted Scrum methodology across 4 onshore and offshore teams, resulting in a 40% increase in project completion rate.",
+      "Conducted regular code-review workshops that cut post-deployment bug reports by 33%."
+    ]
+  },
+  {
+    company: "Central Dispatch",
+    location: "Phoenix, AZ",
+    role: "Lead Full Stack Software Engineer",
+    period: "12/17 - 02/19",
+    achievements: [
+      "Managed a cross-functional squad of 6 engineers responsible for a logistics SaaS platform.",
+      "Migrated legacy PHP 5 codebase to PHP 7 and DB2 to MySQL, reducing OWASP vulnerability exposure from 55% to 2%.",
+      "Championed CI/CD workflows with Jenkins, reducing deployment failures by 60%.",
+      "Led migration of hardware infrastructure to Amazon EC2/S3, achieving a 22% reduction in hosting costs."
+    ]
+  },
+  {
+    company: "DMEhub.com",
+    location: "Chandler, AZ",
+    role: "Lead Full Stack Software Engineer & DevOps Engineer",
+    period: "08/16 - 12/17",
+    achievements: [
+      "Headed a 4-engineer team building a HIPAA-compliant healthcare SaaS for Medicare-eligible DME orders.",
+      "Achieved an 80% increase in order accuracy and processing speed through optimized Laravel/Vue.js architecture.",
+      "Designed AWS architecture to meet strict HIPAA controls; integrated automated vulnerability scanning (Veracode).",
+      "Established a no-downtime deployment setup, reducing deployment failures by 60%."
+    ]
+  },
+  {
+    company: "Socious",
+    location: "Mesa, AZ",
+    role: "Senior Full Stack Software Engineer",
+    period: "04/13 - 08/16",
+    achievements: [
+      "Maintained a 12-year-old legacy application with feature enhancements using PHP and Symfony packages.",
+      "Scaled up the existing testing framework from 40% coverage to 75%.",
+      "Refactored membership billing algorithms to align with complex pro-rating business structures.",
+      "Implemented Scrum for the IT department where previously it was Kanban."
+    ]
+  },
+  {
+    company: "Liberty Distribution",
+    location: "Chandler, AZ",
+    role: "Full Stack Software Engineer / DevOps",
+    period: "05/11 - 03/13",
+    achievements: [
+      "Maintained and created new features for the warehouse pick, pack and shipping app with Python for both backend and client binaries that ran on small form factor PCs.",
+      "New features and bug fixes on the legacy PHP customer service portal.",
+      "Utilized EDI to receive orders from large customers, in our custom ETL app that converted from EDI to JSON data structure, making it easy for the PHP app to consume and push data to the customers.",
+      "Provided smaller customers a shopping cart site built with Ruby on Rails that pushed orders to the warehouse queue and integrated with Fed Ex tracking API for delivery updates."
+    ]
+  },
+  {
+    company: "Social Parrot",
+    location: "Scottsdale, AZ",
+    role: "Primary Software Engineer",
+    period: "08/10 - 05/11",
+    achievements: [
+      "Concept to code using PHP, MySQL, jQuery for the entire SaaS application.",
+      "Created a backend that would interface with Twitter, Facebook, HootSuite and many other social media platforms to post scheduled content for B2B and identity management.",
+      "Led the charge for a service that would identify paragraph and sentence structure of blog posts then remix the article up to 1000 times.",
+      "Engineered a solution that would post the articles that were remixed earlier to several news and blog services at different times to increase Google juice with the links that were embedded.",
+      "Employed REXX scripting to run apps on our client’s machines so that traffic for the articles and blogs would be posted from varying IP addresses to enhance the appearance of dynamic and real content."
+    ]
+  },
+  {
+    company: "Gurus2Go.com",
+    location: "Phoenix, AZ",
+    role: "Lead PHP Developer",
+    period: "06/09 - 11/09",
+    achievements: [
+      "Constructed a ground up solution to connect an existing database of laptop repair technicians with an API service from Samsung’s repair portal for large flat panel televisions using PHP.",
+      "Updated and modernized the customer service and technician login portals using jQuery, HTML and CSS.",
+      "Provided scheduled reporting of daily, weekly and monthly activity using MySQL queries and exported as CSV files."
+    ]
+  },
+  {
+    company: "WebPT.com",
+    location: "Phoenix, AZ",
+    role: "Full Stack Software Engineer",
+    period: "01/07 - 05/09",
+    achievements: [
+      "Collaborated with our in house subject matter expert on the user experience.",
+      "Engineered a ground up solution for gathering physical therapy appointment details using PHP, MySQL, HTML, CSS, and jQuery.",
+      "Custom tailored a solution for generating PDF documents from PT appointments to submit to insurances like Medicare.",
+      "Consumed and provided HL7 documents as a transport mechanism for communicating with insurance payers of patient data.",
+      "Implemented HIPAA policies across all aspects of software development and IT systems."
+    ]
+  }
+];
+
+const skills = {
+  leadership: ["People Management", "Mentoring", "Agile & SAFe", "Technical Roadmapping", "Stakeholder Alignment", "Budget Management", "Incident Management"],
+  languages: ["PHP", "JavaScript", "TypeScript", "Python", "Ruby", "SQL"],
+  frameworks: ["Laravel", "Symfony", "React", "Vue", "Next.js", "Node.js"],
+  cloud: ["AWS (EC2, S3, Lambda, RDS, SQS, Glue)", "CI/CD (GitHub Actions, Jenkins)", "Docker"],
+  security: ["OWASP", "OAuth/JWT", "HIPAA", "PCI-DSS"]
+};
+
+const education = [
+  {
+    degree: "B.S. Computer Science",
+    school: "Arizona State University"
+  },
+  {
+    degree: "Certified ScrumMaster (CSM)",
+    school: "Scrum Alliance"
+  }
+];
+---
+
+<MarketingLayout title={title} description={description}>
+  <div class="relative overflow-hidden bg-background pt-24 pb-16 sm:pt-32 sm:pb-24">
+    <!-- Background Decoration -->
+    <div class="absolute top-0 left-1/2 -z-10 h-[1000px] w-[1000px] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-[-10%]">
+      <div class="aspect-[1097/1023] w-[68.5625rem] bg-linear-to-tr from-primary/20 to-accent/20 opacity-20"></div>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center gap-8 mb-16">
+        <div class="relative group">
+          <div class="absolute -inset-1 bg-linear-to-r from-primary to-accent rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+          <div class="relative h-32 w-32 rounded-full overflow-hidden border-2 border-primary/20 bg-surface">
+            <!-- Suggested Headshot: A professional portrait in tech-casual attire -->
+            <img 
+              src="/images/logos/logo_square.svg" 
+              alt="Alan Asher" 
+              class="h-full w-full object-cover"
+            />
+          </div>
+        </div>
+        <div class="text-center md:text-left">
+          <h1 class="text-4xl font-bold tracking-tight text-text sm:text-6xl">Alan Asher</h1>
+          <p class="mt-2 text-xl font-semibold bg-linear-to-r from-primary to-accent bg-clip-text text-transparent">
+            Senior Engineering Leader & Full Stack Architect
+          </p>
+          <div class="mt-4 flex flex-wrap justify-center md:justify-start gap-4 text-text-muted">
+            <span class="flex items-center gap-1.5"><Icon name="lucide:mail" class="w-4 h-4" /> <Deobfuscator client:load text="nyna@nfgrevfxcbhaq.pbz" type="email" className="resume-email pii" /></span>
+            <span class="flex items-center gap-1.5"><Icon name="lucide:phone" class="w-4 h-4" /> <Deobfuscator client:load text="157.122.7864" type="phone" className="resume-phone pii" /></span>
+            <span class="flex items-center gap-1.5"><Icon name="lucide:map-pin" class="w-4 h-4" /> Kentucky, USA</span>
+            <span class="flex items-center gap-1.5"><Icon name="simple-icons:linkedin" class="w-4 h-4" /> <Deobfuscator client:load text="/va/gurmbzovrfcyng" type="link" hrefPrefix="https://linkedin.com" className="resume-linkedin pii" /></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <!-- Sidebar -->
+        <div class="space-y-12">
+          <!-- Summary -->
+          <section>
+            <h2 class="text-xl font-bold text-text mb-4 border-b border-border pb-2">Summary</h2>
+            <p class="text-text-muted leading-relaxed">
+              Senior engineering leader with 19+ years of experience building and scaling SaaS platforms in healthcare, logistics, and gentech. 
+              Proven track record of growing high-performing teams, accelerating delivery, and driving multimillion-dollar product outcomes.
+            </p>
+          </section>
+
+          <!-- Skills -->
+          <section>
+            <h2 class="text-xl font-bold text-text mb-6 border-b border-border pb-2">Technical Skills</h2>
+            <div class="space-y-6">
+              <div>
+                <h3 class="text-sm font-semibold text-text uppercase tracking-wider mb-3">Leadership</h3>
+                <div class="flex flex-wrap gap-2">
+                  {skills.leadership.map(skill => (
+                    <span class="px-3 py-1 bg-surface border border-border rounded-full text-sm text-text-muted">{skill}</span>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold text-text uppercase tracking-wider mb-3">Languages</h3>
+                <div class="flex flex-wrap gap-2">
+                  {skills.languages.map(skill => (
+                    <span class="px-3 py-1 bg-primary/5 border border-primary/10 rounded-full text-sm text-primary font-medium">{skill}</span>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold text-text uppercase tracking-wider mb-3">Frameworks</h3>
+                <div class="flex flex-wrap gap-2">
+                  {skills.frameworks.map(skill => (
+                    <span class="px-3 py-1 bg-accent/5 border border-accent/10 rounded-full text-sm text-accent font-medium">{skill}</span>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold text-text uppercase tracking-wider mb-3">Cloud & DevOps</h3>
+                <div class="flex flex-wrap gap-2">
+                  {skills.cloud.map(skill => (
+                    <span class="px-3 py-1 bg-surface border border-border rounded-full text-sm text-text-muted">{skill}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Education -->
+          <section>
+            <h2 class="text-xl font-bold text-text mb-4 border-b border-border pb-2">Education</h2>
+            <div class="space-y-4">
+              {education.map(edu => (
+                <div>
+                  <h3 class="font-semibold text-text">{edu.degree}</h3>
+                  <p class="text-sm text-text-muted">{edu.school}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        </div>
+
+        <!-- Main Content -->
+        <div class="lg:col-span-2 space-y-12">
+          <section>
+            <div class="flex items-center justify-between mb-8 border-b border-border pb-2">
+              <h2 class="text-2xl font-bold text-text">Professional Experience</h2>
+              <div class="flex gap-2">
+                 <!-- Modern badge for role toggle or highlighting -->
+                 <!--<span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded-sm uppercase tracking-tighter">Managerial</span>-->
+                 <!--<span class="px-3 py-1 bg-accent text-white text-xs font-bold rounded-sm uppercase tracking-tighter">Technical</span>-->
+              </div>
+            </div>
+
+            <div class="space-y-12">
+              {experience.map(job => (
+                <div class="relative pl-8 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-px before:bg-border">
+                  <div class="absolute left-[-4px] top-2 h-2 w-2 rounded-full bg-primary border-4 border-background ring-1 ring-primary"></div>
+                  
+                  <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 mb-4">
+                    <h3 class="text-xl font-bold text-text">{job.role}</h3>
+                    <span class="text-sm font-medium text-text-muted whitespace-nowrap">{job.period}</span>
+                  </div>
+                  
+                  <div class="flex items-center gap-2 mb-4 text-primary font-medium">
+                    <Icon name="lucide:building-2" class="w-4 h-4" />
+                    <span>{job.company}</span>
+                    <span class="text-border">|</span>
+                    <span class="text-text-muted text-sm font-normal">{job.location}</span>
+                  </div>
+
+                  <ul class="space-y-3">
+                    {job.achievements.map(achievement => (
+                      <li class="flex items-start gap-3 text-text-muted leading-relaxed">
+                        <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent/60"></span>
+                        {achievement}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</MarketingLayout>

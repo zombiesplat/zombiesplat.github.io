@@ -1,0 +1,175 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import MarketingLayout from '@/layouts/MarketingLayout.astro';
+import Hero from '@sections/marketing/Hero.astro';
+import LogoCloud from '@sections/marketing/LogoCloud.astro';
+import HowItWorks from '@sections/marketing/HowItWorks.astro';
+import FeaturesSection from '@sections/marketing/FeaturesSection.astro';
+import BentoGrid from '@sections/marketing/BentoGrid.astro';
+import PricingTable from '@sections/pricing/PricingTable.astro';
+import TestimonialsSection from '@sections/social-proof/TestimonialsSection.astro';
+import CTA from '@sections/marketing/CTA.astro';
+import Newsletter from '@sections/marketing/Newsletter.astro';
+import { siteConfig } from '@/config';
+import IntegrationsGrid from '@sections/marketing/IntegrationsGrid.astro';
+
+type TestimonialEntry = CollectionEntry<'testimonials'>;
+
+const testimonials = await getCollection(
+  'testimonials',
+  ({ data }: { data: TestimonialEntry['data'] }) => !data.draft
+);
+const sortedTestimonials = [...testimonials].sort(
+  (a: TestimonialEntry, b: TestimonialEntry) => a.data.order - b.data.order
+);
+
+const integrations = [
+  {
+    name: 'GitLab',
+    logo: '/images/integrations/gitlab.svg',
+    category: 'Development',
+    featured: true,
+    description: 'Full CI/CD integration with GitLab repositories.',
+    href: '/integrations',
+  },
+  {
+    name: 'Slack',
+    logo: '/images/integrations/slack.svg',
+    category: 'Communication',
+    featured: true,
+    description: 'Get deployment notifications and alerts in your Slack channels.',
+    href: '/integrations',
+  },
+  {
+    name: 'n8n',
+    logo: '/images/integrations/n8n.svg',
+    category: 'Automation',
+    featured: true,
+    description: 'Workflow automation with n8n integrations.',
+    href: '/integrations',
+  },
+];
+
+const featuredIntegrations = integrations.filter((i) => i.featured);
+
+const bentoItems = [
+  {
+    title: 'Preview Deployments',
+    description:
+      'Every PR gets its own preview URL. Share with your team and get feedback before merging.',
+    icon: 'lucide:eye',
+    size: 'large' as const,
+    accent: 'primary' as const,
+    href: '/docs/previews',
+  },
+  {
+    title: 'Instant Rollbacks',
+    description: 'One-click rollback to any previous deployment.',
+    icon: 'lucide:history',
+    accent: 'blue' as const,
+    href: '/docs/rollback',
+  },
+  {
+    title: 'Edge Caching',
+    description: 'Smart caching at 200+ edge locations worldwide.',
+    icon: 'lucide:database',
+    accent: 'green' as const,
+    href: '/docs/edge-network',
+  },
+  {
+    title: 'Team Collaboration',
+    description:
+      'Role-based access, deployment comments, and audit logs for your entire organization.',
+    icon: 'lucide:users',
+    size: 'medium' as const,
+    accent: 'purple' as const,
+    href: '/docs/teams',
+  },
+];
+
+const features = [
+  {
+    icon: 'lucide:zap',
+    title: 'Lightning Fast Deploys',
+    description:
+      'Push to deploy in seconds, not minutes. Our optimized build pipeline gets your changes live faster than ever.',
+  },
+  {
+    icon: 'lucide:refresh-cw',
+    title: 'Automatic Rollbacks',
+    description:
+      'Something went wrong? Instantly roll back to any previous deployment with a single click.',
+  },
+  {
+    icon: 'lucide:globe',
+    title: 'Global Edge Network',
+    description:
+      'Your app runs on 200+ edge locations worldwide, ensuring blazing fast load times for every user.',
+  },
+  {
+    icon: 'lucide:shield',
+    title: 'Built-in Security',
+    description:
+      'SSL certificates, DDoS protection, and security headers configured automatically for every project.',
+  },
+  {
+    icon: 'lucide:bar-chart',
+    title: 'Real-time Analytics',
+    description:
+      'Monitor performance, track errors, and understand your users with built-in observability tools.',
+  },
+  {
+    icon: 'lucide:handshake',
+    title: 'Team Collaboration',
+    description:
+      'Preview deployments for every PR, role-based access control, and seamless Git integration.',
+  },
+];
+
+const pricingPlans = [
+  {
+    name: 'Hobby',
+    monthlyPrice: 0,
+    description: 'Perfect for side projects',
+    features: ['3 projects', '100 GB bandwidth/month', 'Automatic HTTPS', 'Community support'],
+    cta: { label: 'Start Free', href: '/register' },
+  },
+  {
+    name: 'Pro',
+    monthlyPrice: 20,
+    description: 'For professional developers',
+    features: [
+      'Unlimited projects',
+      '1 TB bandwidth/month',
+      'Team collaboration',
+      'Priority support',
+    ],
+    highlighted: true,
+    cta: { label: 'Start Free Trial', href: '/register' },
+  },
+  {
+    name: 'Enterprise',
+    monthlyPrice: null,
+    customPrice: 'Custom',
+    description: 'For large organizations',
+    features: ['Unlimited everything', 'SSO & SAML', 'SLA guarantee', 'Dedicated support'],
+    cta: { label: 'Contact Sales', href: '/contact' },
+  },
+];
+---
+
+<MarketingLayout
+  title={`${siteConfig.name} - ${siteConfig.description}`}
+  description={siteConfig.description}
+>
+  <Hero
+    title="image"
+    titleImage="/images/logos/logo_banner_light.svg"
+    titleImageDark="/images/logos/logo_banner_dark.svg"
+    subtitle="I'm Asterisk Pound. I've been a dev for 27 years and a web dev for 19 years. Welcome to my domain / showcase / devlog. Follow along as I chronicle my journey."
+    primaryCTA={{ label: 'Read the Devlog', href: '/blog' }}
+    secondaryCTA={{ label: 'About Me', href: '/about' }}
+  />
+
+
+</MarketingLayout>
