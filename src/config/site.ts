@@ -29,7 +29,7 @@ export const ogImage = '/images/og-image.png';
 
 /** Social media links */
 export const social: SocialLinks = {
-  twitter: 'https://x.com/asterisk-pound',
+  twitter: 'https://x.com/asterisk_pound',
   github: 'https://github.com/asteriskpound',
   discord: 'https://discord.gg/asteriskpound',
   youtube: 'https://youtube.com/@asteriskpound',
