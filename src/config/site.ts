@@ -31,7 +31,7 @@ export const ogImage = '/images/og-image.png';
 export const social: SocialLinks = {
   twitter: 'https://x.com/asterisk_pound',
   github: 'https://github.com/asteriskpound',
-  discord: 'https://discord.gg/EeuEGzfCaH',
+  discord: 'https://discord.gg/de5zXnbkAC',
   youtube: 'https://youtube.com/@asteriskpound',
 };
 
