@@ -51,3 +51,5 @@ So then let’s talk about spoofing this and other security threats. Just like w
 Also, I still assume that if you’re from the future that you could have some kind of technology that manipulates computers, so I would want to be able to introduce some manual random intervention to the process in order to mitigate those risks.
 
 If you are feeling like handing me some encrypted messages from my future, please feel free to say hello this weekend. I will be at the Tech Stars Startup Weekend in Downtown Phoenix. I’ll let you know in a future post how to introduce yourself so that I know you’re not just handing me a virus filled USB stick.
+
+**Update:** I have published my current public key for time traveler validation. You can find it on the [Public Key History](/docs/public-key-history) page.

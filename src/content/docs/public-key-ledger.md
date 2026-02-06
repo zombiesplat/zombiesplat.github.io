@@ -1,0 +1,232 @@
+---
+title: "Public Key Ledger"
+description: "A chronological history of public keys used for time traveler validation. Only the 10 most recent keys are displayed."
+section: "Send a Message"
+order: 100
+draft: false
+---
+
+This page maintains a history of the 10 most recent public keys. If you are from the future, please use the most recent key to encrypt your message.
+
+<!-- KEY_LIST_START -->
+
+
+### Key Generated on: 2026-02-06 00:02:45
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA7Mxn4ZMHDpDJMmBVUgiu
+3sOtfNOxyHk/6qNcz8hhidGjdBFiI4sSs+iySKL+2QR4kI7bnuJ0GWidKBMrfHQB
+kywOP1hDRDhQNEHHGHqYRODsJrQ4kFYhDH6xS3fA92rjru7lmWTZtWEwi+UUgNFr
+gIp+q6KMgbFcoGb+eP0VCr9Eer3zoqIW/hkzRpujrmpT5tcURZrAo5tBOxEd/e5E
+QhwdNeZnhg+TmkJKVIrltusdsis9elootsXALaJqcyiqme8vRfUIKoLjzeDz2YiY
+12IaZmc2EADUK/WZb/TjA114/nrQlEgcfHJ8K1rlgr4vbXbA5/NPMu+zzkFfjvMQ
+W3UANUod3JAdq8bBONgOkHuklRIErPRwluAVqgKVZ0QOg0chT55WYem8rNgTzMaw
+S7FlzP+LPX3l8W1CFmnQQKflhSdZNEp9s8mx9XAnwq/PPkiXKGbPosrSrmdjM1c4
+NE0deTVsfJHlh/u00de4of4tzSnXIfTu2sgm7slxvpgUUsWwONvawDdRAyMqhjwr
+PzijLlERxzzOflKZi1eUjrv+C/PVTdesggF8dJqzu6pDg6S2KLBlANvJDhKmHa+p
+son6EWv5cup/2rHiImKvsIpKyAEhFny+wCep1kW3c6Wr/YZMsdXx3RgiUS4YGaoF
+WVeI1opdnyvbyQ+ahjzKnvMCAwEAAQ==
+-----END PUBLIC KEY-----
+```
+---
+
+
+### Key Generated on: 2026-02-05 22:00:00
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2+3iuVkO7joEevjSbLEZ
+DV7QgOfZvwmjBE4i5stvGTQ6Jc5f38pUChvvjkmE2FYc/LQE60n6XbVbuhuBqC12
+doN3hELXiAzS8CACA2FUiJaefp8tFUcPv+tA3J2PbdS1kV4HEYSxptznMR9z/B5r
+S4SvqbYb4Tln5cbadKjr6kvJUajZL43CwDwF0QS1noPbQfE7d6iKvSJBYTh62CbT
+aA6DSG2z3F8nX9OQvqbva8Otr4q+RkLEsSXpQAxg0FvT9FTc88edaHlqDyvDLB19
+AP+8wzqaTH4c5mA5fMZ1ZT9ELTE2khtHONKfR5H4qQECbvUiaoSx5bngXAdVeEKd
+TXUtBYAVgFDbWd6YfzN7uwrpsUAY/iNfy5g+GJAR9AmIfOxjemvM0kV4HlD0zCpZ
+FfSL4k7GRb5JseTcpbYkLKx8GP8eOhmPuuF4Dgu4GjRfE4tzMVsRGRgK3Rh4tWwD
+96EpjFwXXlqyxq6Ellz8U/H1WFxBriYoG5gHyboDARNf8K9GVgPh80mZDb12cH2r
+W9pJRFYZwa1o1LHgUCxzfkspojM9v7aUNUornejTtHZCDg7AcO/b22/IOYJ+nu6R
+eb9evZdlm7hNJ6Nz/Kw1XffP0UJpi1Qyler5cSzqU3Fx6TZgHjnrVO/QBNvWM0ZO
+F4FXacbzBK6Yx76BEbbeaeECAwEAAQ==
+-----END PUBLIC KEY-----
+```
+---
+
+
+### Key Generated on: 2026-02-04 22:00:00
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1+Ea3SD7Ga2hcIF9hjnR
++LB1sxnru3zkZnuCDxrecbQOj3Aq4edyTmUT5xv1LmCgyOmgBQ7OHAsLobHrUrNA
+IxRj/7s33U7aLbuFz/eL37ac+ndqK82dTvf2B1Q7UBoRcVkqD7wVpd708AZm5Qoh
+NZd+R9mkiT9p4J24XShKHBvIIwYmpU7zMUKOeT0PdJGlNNaz4H2SlfkxSVUSxbH8
+qtYCoLTQ4JYjd+HEryNTzPyzzUoloBAQaajuA99oKiBk6xLn3cnB+fFej2iYQfpM
+/MrrOqc1onEG1eame/IVh6Lk1esb3ZTe8aCZtO3U1mLvD2NsO67D5asxozfqsyzX
+CkDHjEAYx2DLnv2sf16LXhb08P6t9yGKZUDznva9EX1FW3m6axMfnjyLTj6uvGyV
+bjjCQquk9XSgCX74br3vvNn6+dgBBA4m4MiwVSzPv8BJ2fL70+snggzFcZvl5VAY
+QhsOVBLRNoCgyMe3V6Fmp9KgHQxBRCHMYRCVnjIxz9aKmKIBx1IFkL+rCo3hyoBU
+hD5KJ9Mc9xqx/cr9CoY3xRljIyWaG003LpJZciSsg0BismCVxBHTNf+8W0zHS7Ig
+BLP063OzUyY4CJgSihk9joylt9i6PTpgrqCjspl0JanDpZNixk4YXBaTG9lVPuED
+wEm0FDtjLzkNpJ8vshA37uMCAwEAAQ==
+-----END PUBLIC KEY-----
+```
+---
+
+
+### Key Generated on: 2026-02-03 22:00:00
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsdppNXTLK4OfmeiTSiFu
+NuzycQtFFgWOq5lWPlLO6gLptOZTv4j65ghixCYtNIuS7x/ne102sUvbo68RgPZx
+6sXUFDP8G5NM2HRYpf6tcD9S2IBRsrrxGuqCi+mNCC50Ct6LICWuX9YUkRHVOCIM
+jruaMSBtPpKPA9km5FMTkCqmiy522q20XMuXjvXfR0SNQ/ofHBt6pzFFpOUoqW9S
+WZIOSNMJHNvlmW98ti4EUC468L1tmyXXGkSAGQUcjNZXP8X04k30tn2FAb917cLy
+raDwWA58O0dOoJ4XoTuNK+5m5qbxCbDYNmOTrojiwcXuv+GP9ytXQWlI44cyoqfX
+FTpByOj9ma1a61x1Q7KgOPhQy0CbgFkPRsZFYM3INZXLlgBHSXmN8sIaHJspOzew
+qOSEtcWmG+FzIL8ypr/xHgO6ymlDgLssstJ+MJYxYj8t2K7UsibHEU1hA/NUQ4c5
+rZHMJOqqFN+Tcl9o7fRMUgJqJ99t1B/8IeFgVoN4TA2ibT96FOs0dIYcm0ykYf1k
+J5LPD8foWkQ3EJ8+7djna1wtRdt46cf+c+lxXLSB0/9/tofEhD+kV+0W3d4SS22y
+lFiVIgDOkPaCfn65i1VaeA3YPdOP5vVdYfub6bDQMDfkoA4VDiqiY2uQ2r1ZuMdV
+evLvNIYKJ87fBWjepVedYz0CAwEAAQ==
+-----END PUBLIC KEY-----
+```
+---
+
+
+### Key Generated on: 2026-02-02 22:00:00
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsqzTpbcDffJDRAsBEaHZ
+xjNzcV3LZVNwcCJLQJlmwGud34H82C/5dGrDBUHRa+XKKIDLqVoNHw03uKj9gmSW
+945+G1vFM4DlxcKVTmY6anU1n2i9Yrt28X+oF0bkozK57nMJMS/SvEInQZ1zO5lW
+bIYC7gqIB5ryLMCUZEMKw91DHhaycKFKOlbrQOoR7CxiajrTXgIRJmxGl8QcrX6g
+1pEQBMlh2nxZEqo7C1LYe3QIs6lV+4CnJ7vQI+rDbGGrr75zPswi+HmJ2lTFBylo
+hAbreKiJL019PYBWlcXPhCTIOWHvNqpnRgRgN8xDpAfponS51mJI8cNesbPEy4FK
+yuD7LPw624orxv0NIs+D/LR2fjgVZCYoBGv+kp1Bxazh5iUmMaEji2cGgW5vZSQ9
+5Y7b5sEHXBV1kQWd3ULCehrtOu3MHrIhmwpAAttkRrIMPoiQC3JOECAsJhq3p9Xa
+X1zOlIKH1VfQADUqQdcCdYZtuxbzjpTep5bWG1Aj26db+4a5TWGLhWz4HlyEt//i
+fY2Q6RsE+vpMtZAxaBWrKCXkeNQ6ha8yhahgj4AcKTL6hTlP8/4uQLfZf4zN873C
+QN53oRte6gQE8Nycsi7LKRtY/nMn9LgTJXXgYrCMHXt22D/l0wqnkCl9fy++TRpf
+3BCB+OQE14tkVHOvqdslWQECAwEAAQ==
+-----END PUBLIC KEY-----
+```
+---
+
+
+### Key Generated on: 2026-02-01 21:00:00
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtadYS3iBZxGAAWkqzZPr
+9wFcMHwGMZlIFJptnMbyEo+oocCmDoC1h3wHZDRNqea7emJvOwQ+spwRsIDcW2CG
+YF3NE+E3Rlv9k45Q5sLVjsMFxzZmP3o1LFk6ALQ2E2R85SeguljmIZzGl19xGOZN
+2IhdCiazhyVk0RuGGeQL/xb80Funf33iWKxWXviZR5fcaP8Zzs3XB7Mt727rO/Bj
+2dSztGGwAsLqhJFIm+mZN4L5dRcJpOXPxYo7E1cHsCDjjbNxxopftFUENjwy4zcY
+u1jDAl/9/qDqZtlsRkbBEA/X/CMpDycBBxgkWFsHNG6Aqa2RPcz+y7wb5LpMVQug
+l4BcWQruNCVFdxxKIJYAjjmfhqKvMcmbB8YbxhO9h1rwBtX2Tzijhb/VyOjzaFot
+0ZA91Y1NQ4krzdxCV6mMb0krqF/MjUe2JH1A3fFHFQu4lPAymc6x+OS41BybpZT7
+aU6Cm0/vg44US4wdRN+BxkWKq9avRWB5iLcwEf3T+uAXb428NP7+xqH5eKlhrU+z
+JMJ//7esVS5meBU30NVm4IrSkJORUiP9zNUg8MTEc14hVpumZc/tFLCKZFRR/SJP
+OZBd4vdf7BoQV6W1H3/6AseZFBZLq9IDZ19b7yCC8kY9NETuqGvpdmbU0tHajW++
+85VBPGwW4b/llEJM7vFCMNUCAwEAAQ==
+-----END PUBLIC KEY-----
+```
+---
+
+
+### Key Generated on: 2026-01-31 22:00:00
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA070GBnEkBrdGIA7Spaj7
+mKq2+0ngBC3yMigVFBNrnzkqmop+JrZB3YeFiv3SgJVUVRL2ngTmE+TCnw0Fsp/Y
+gSD1GjAeO1uy725D8IT3xLpf24wm8iBrzaLirwxfKTnCvMUZS/hsdds4QqWZZsLr
+i+AbNX3RmXw5y+wasg+KwBMrAxl+s82TMpypzjqoIcDrOsjwhT7TRcq5iB65OrlX
+TZLuEAhvFA+fbRnJimSerrC/l0aODr7oS+V79mO4cB2LJfZYyifAL2ESUd5YFmgq
+SwG/PVQO8OMxCY9Au7OYrEjZ5hrwdNDdl9zXo3iQekjmuckfJw1ZLeB8DsMZSuCk
+jDU/mcZDur7OSOpuzrZzBQJCON6TAGgG1Da8BsPswAVjl7xb6ha7yl8ot00FIY+C
+XlGgKoauuv5n9Rz+hQAdH+NoJXpS8a40M9SCXYBh6T9mS0NjhLHriX3mM5ssPQxb
+D6gANh3V92TyvvGEGnX3L9niiYqmeBqAeXOy1d7OtD2Yjk9/+eTQidU3808i/dV4
+bA57vuJIEg+MOv6ofqPXa0z1u2eDdkeSUGX7XXvsUcIzkB21AYYMsVWXyAZTk7O6
+TjOrZhB6hOduyQrwHH/VKJ4uBsr3PbQ5KVsPdV6Ar0VBS8xCmZivfprKVSNoKw2P
+khD0G3qtf5roHHswx3DTJPECAwEAAQ==
+-----END PUBLIC KEY-----
+```
+---
+
+
+### Key Generated on: 2026-01-30 22:00:00
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApXWIAb26afRjA4SlBvOm
+wwWWzce/7cgPiYOLcrwu9FJRnT9g5YhVcg7UdeE7WYH9bUeaPP+irpr+qXNO/YUs
+lK1MqMie8MkdoNHfuS9XKA1FEDw1uZegW1XLmlxjPBAx0UmYFLC6wkYfskk+JCYG
+OipxXDq7SNametq/ipUMblTIf+VY1fgBizXpoKGV4WxUvVBdpLPEKNyUldNrbMPq
+bDiBBTAOM0xX6N0w85L3lMpyLdugF6/XAP2Y9SPuYo8OfmFgah7gkZS3HmvdrN/T
+25FDwSzOGgB1+sQcNcGknFnt7qPDIkj/VVL5qCzLW5HNwz2Dm9T08l9URcPhKhYC
+WPVBfZQpl3TCdu3r7HSJkqk6JnvZrylVevq1OIfUVfGTnbx4JoKT5mpKusFbD/Nd
+1X+VSSPQLY9e9/GArpY+yb/l0ixTF8vjwLh6RcHsvLDIR7jba50pF1QuLzCyY5R7
+orO5M4Vpn7Odgj8gIntnazCpucRsLwoJu8NNwGWF8Xm10VA/gMjvfJ/6NkJqmoYP
+OXMovqHePbKVBG6Aewx810uKHaxbDU/xuw9e7ocEykUkzHHazzbHy6tY8fnbp7ZV
+KoZhIMFzXK0dghO+4p2Twh3hwcKIuKL1mTwthhuW8EAFdf8Ijh/9uVjrLBBosDuE
+zJj9+HAT4BmYXsqgYjNH3jECAwEAAQ==
+-----END PUBLIC KEY-----
+```
+---
+
+
+### Key Generated on: 2026-01-29 22:00:00
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4nCh0Y3tL7eH6leVmDIp
+1GBcy+bP7vyg/UdOAX3y+xxDvzoBhfnkft8bH/4O3YKWBq3BRY8U777vRAQuxQWp
+NdfnEZLZHUQMa4tCi0mvjo5xG4vIvsid5DPtyEPyw1mpKiNa6zWVPF6RDUwd+tLF
+pBCJ4LPIi3kW2szxdqGhsBgh1P/9XvtiC17lVpP9RXdpDaRJXdPrclJ0t/GmPmjH
+Qd9eqEm6axmUp56n18qLxvWp85AOuNw7rJKKYSr5nAGaHoXm6PM0OEY5B4MPJKnh
+2cHlFT5ru99R8I5MKStBk/xgYDD+jRMnr4L0aoFGOqEjXWOO1psBBx5KHZbiGfOr
+Dc7DVGGrPFeqqILTTUzxPY9eEYZ4VSmd4e0zvXT7Qd0vaezilY+ZdJBgus4hUbRe
+tLr63DhtGe9QU9OhLW51Z6jW2WmSdIWOw6HtFER+DEIoLaM5jjh121ZyN/hVqU3e
+0Je33SebARHJX2MJMwzuShQ8cGzn7LIk713y7PyRtvUq/Q8Q1hDw2/ZoPip3HzPK
+pnGzBxo+AikJq11i/2GZg0VunWPgfb89CclDCHP05qthVKRl8dLssBu3WB3R1lo+
+NAoAaX21x59lXfRo2Ky1pY0NkpYEbJOwBlkRMU8Dpkypo1CWcI/uST+rf0FbSY9y
+NM5r5c7v7bZE7ln/RJcXyJ8CAwEAAQ==
+-----END PUBLIC KEY-----
+```
+---
+
+
+### Key Generated on: 2026-01-28 22:00:00
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoKk+M2kv5ZFyUYgTWsAX
+fmDVGKpQ4L1jYv7V9MIFYRyVQleFMr9wqw0cNu5UHr/Lnkc/lc1fm+uI/zn7oC9u
+rue1D7PwdFhOzgtZZMiTrcCMGYau4DhujgTwLHC2cI+sJ9EjYkfBg7wST7sejdLH
+jLZkl4mzq2wTbSr2b/6RUvYRYesgYvuwKG7XDjSZadnhZ/drDISrIfCpV2EcGRth
+qT0GekAoVP1Uge/8jpwxo/U2wMitCXEyhwX7Dfx1g4leiQgw0w8aPdOiuMLUz2kd
+Kv5qwBtFg7KNb7T8Pjlo/M9Xi6WRDrnXK2rwdwXXWCaaGp3VYHUpDJ2oWyrrizwk
+7Pz+rIV8CSFQ9YzmcQ9lMmxo/VX3WrThVbWJa9eUukmrz7Q+h5Z6tL/yj+I69MVf
+1+ddnphz+YBGW6gXa2i+stmIWl4V47FSiO+K26rWAcRkW2nEhgAyKs++SGP/fZ6g
+MRy+UUFgh2vHc/ELSy8eXkGcXza6rqVN4wxopDxIAndrSUYAYSJFwOFMbVv0YGky
+pEVNFJ+2rCPdGinhTniPqOkGBocCwKnldyhY7lJYOuFSVvoExyFY6InCKlQCq+W1
+0YerCBPux6lyDkpSI4CNL75M1L+ca5aEapUHRVpCKuyEHBUt2JA+RV1OPqngfMt9
+CSMbzq/vxewHkTN2MK1C0jECAwEAAQ==
+-----END PUBLIC KEY-----
+```
+---
+
+<!-- KEY_LIST_END -->
+
+## Verification Process
+
+If you are from the future and wish to prove your identity:
+1. Obtain the public key above.
+2. Encrypt your message using this public key.
+3. Travel back to the time before the generation of the keys and deliver the encrypted message.
+4. The creator will generate the key, then decrypt and verify the message.
+5. The creator will publish the public key on this page.
