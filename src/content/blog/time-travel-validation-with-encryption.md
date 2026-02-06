@@ -52,4 +52,4 @@ Also, I still assume that if you’re from the future that you could have some k
 
 If you are feeling like handing me some encrypted messages from my future, please feel free to say hello this weekend. I will be at the Tech Stars Startup Weekend in Downtown Phoenix. I’ll let you know in a future post how to introduce yourself so that I know you’re not just handing me a virus filled USB stick.
 
-**Update:** I have published my current public key for time traveler validation. You can find it on the [Public Key History](/docs/public-key-history) page.
+**Update:** I have published my current public key for time traveler validation. You can find it on the [Public Key Ledger](/docs/public-key-ledger) page.
