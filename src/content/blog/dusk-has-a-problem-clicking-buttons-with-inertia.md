@@ -3,7 +3,7 @@ title: "Dusk, Inertia, and the Case of the Missing Click"
 description: "Why Laravel Dusk often struggles with Inertia.js applications and how to transition to more reliable SPA testing tools like Cypress and Playwright."
 publishedDate: 2026-03-04
 author: "Alan Asher"
-image: "/images/blog/dusk-inertia-problem.png"
+image: "/images/blog/dusk-inertia-and-the-case-of-the-missing-click.png"
 tags: ["laravel", "inertia", "vue", "testing", "cypress"]
 draft: false
 ---
