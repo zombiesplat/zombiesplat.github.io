@@ -1,9 +1,9 @@
 ---
 title: "Why Conversations Are Harder Than Code (For Me)"
 description: "Conversations don’t pause, rewind, or wait for you to catch up. A look at why real-time communication is harder than code, and how to design around the gaps."
-publishedDate: 2026-04-26
+publishedDate: 2026-05-05
 author: "Alan Asher"
-image: "/images/blog/placeholder.png"
+image: "/images/blog/why-conversations-are-harder-than-code-for-me.png"
 tags: ["personal", "reflection", "communication", "focus", "attention"]
 draft: true
 ---
