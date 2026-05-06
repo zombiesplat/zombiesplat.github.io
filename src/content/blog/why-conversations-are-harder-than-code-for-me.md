@@ -5,7 +5,7 @@ publishedDate: 2026-05-05
 author: "Alan Asher"
 image: "/images/blog/why-conversations-are-harder-than-code-for-me.png"
 tags: ["personal", "reflection", "communication", "focus", "attention"]
-draft: true
+draft: false
 ---
 # Why Conversations Are Harder Than Code (For Me)
 
