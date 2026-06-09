@@ -11,6 +11,27 @@ This page maintains a history of the 10 most recent public keys. If you are from
 <!-- KEY_LIST_START -->
 
 
+### Key Generated on: 2026-06-08 22:00:01
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA+DmtGk1G5+pNnTE7iSfJ
+UIVNCZb4Co3M90CDiQZIODTM6I0JGIp4WMJNvatAmVD67CUUCYerMWXQ5W1Fd6q/
+V9LVhehN/fCu75BJF0wzi4uM/SHCEtSttrnuvsAUrZku094eStXH2dDeTSQcNn/g
+WDaFhUbBSlwBHewnREFjW5qxyAjcvkhcoP3AOfLN3f7n9tB+Ax6ja2uGi8Z0Ksx/
+AR6VCrPUluRmB0s3YVb145EHY0KPimZRtU802m3MJPiftSCqxf5AUtGbW2LFCWfm
+TS4IAGD0nIMtrwmsvRpm5DDigAfURL5vosiBNJNrtzVxd0H/qevEEqXdgs97OPFv
+VxD1gRWFCSZUfuwZE8jJ8fnYMFaE+3/QHLbz3CjpCCiKxE9xKdrpNAPp8Ztxghux
+uCf4dtwkrhz4vmMjXq+TaTnYHy7sLiz9N8kpkySAR6Izz2kvsPxTO0ZvPpRJVajh
+2pav2Ltf/qLNCWPhuApNfq3UbXkI8sLtxHmSuNek9dGpHvjAXoZHbUV2ZpFTjsUu
+JwFr8J9btD9YWRH2Na93a7uARouQJ0MBKEEt9ILy67MijM00LQVhVhrieZARau+X
+ohszKrLSzNJbrw5K3+XJ2CPiVoVpbdjtiZwjxcAks1p6ezqrGTO2UKC49efuzbZK
+Yjttic26w7aNkvESd6jfOTMCAwEAAQ==
+-----END PUBLIC KEY-----
+```
+---
+
+
 ### Key Generated on: 2026-06-07 22:00:01
 
 ```text
@@ -195,27 +216,6 @@ f2Ef/2xuBndny0oRsEUUoVm4gPx8Qr82KPKP4H/Rx0invtHu/+w7yJ7yG9URCMV3
 uMDAv+W9IplOAUQLdr6jqyK1/r63N2lUEIcm78G07z6EeCqcmmFVGksuQwlzGKGe
 PO5WO0o946VfjkpcGko2gkP6V+TeLJqeZZTAqt8wqfZQPaGwsf3CciYNRakRDI0G
 riPtc5YK51gix0cVW/gxP+ECAwEAAQ==
------END PUBLIC KEY-----
-```
----
-
-
-### Key Generated on: 2026-05-29 22:00:01
-
-```text
------BEGIN PUBLIC KEY-----
-MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwdCuBSHrP/qQQXoJynM2
-ncMiRYBerKns8IYzqsKDyObaf/SORYPurxcqebkfgLEzCBWiaY9K3NewikuNRwLc
-BVocSg2Sr6Los5R+v2nRyaooDTW6lFs8OqHe50nIC6H5gee7NGpUzAVcvamrHmea
-32WUuG7+LphJm9MXDFSK5+92V/KYcarrgAOFWxIu3Jfg/3UL4jvF22QhdqDFi3zH
-/pGUXOdy08BxUfV5lWtEAI8ZNZsutWUnrAFoKH+Qe73r7AkJ8CNTnO6g8GBZHfcl
-CtTF0zgUdEcJji/W0ncov/vjtmkEvLzKTGWa0kjWGyfK7b/LUGIiePAsyk+Zasad
-7YXCtM9xJzkFVO6+bEyggjLua/atMcJbKLq2STjPQgk95sOPB4ujBBbJL/2NM7bC
-6OfmyX5ilcQTH0YHvGnSwChvp+p/1iStirF/AREOtkMc4mNLS53z7TPavT3OvQgC
-zfN3r0hxIn+nT2CRoGjwyyxvgd/xCaqUcYb7IJ/oGufarz78jAxRBtL5gyWxx6Q7
-8GgkmtYOVJsnU7GWD06OhiMm4qRfmL+cYvTw9gAHLvHhe3tDrsr46R2+hxV6L/Xv
-dtTUFro0R8VyGvPbvaO8HIg5+qfKmZWoc09dV61Lks77i22uWWrmE3/3qPKv3Lcx
-mqiT5jMomXhs0XuqvjSbIz8CAwEAAQ==
 -----END PUBLIC KEY-----
 ```
 ---
