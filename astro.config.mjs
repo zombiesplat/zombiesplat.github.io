@@ -50,6 +50,8 @@ export default defineConfig({
   })],
   vite: {
     plugins: [tailwindcss()],
+    // lerd proxies zombiesplat.test to the dev server; Vite blocks unknown hosts
+    server: { allowedHosts: ['.test'] },
   },
   redirects: {
     "/2017/09/30/certified-scrum-master.html": "/blog/i-am-a-certified-scrum-master",
