@@ -9,7 +9,7 @@ draft: false
 ---
 # From The Pressbox Errata: Drum Corps Scores, 1973–2012
 
-[From The Pressbox](TODO-link) has the most complete record of drum corps scores
+[From The Pressbox](https://fromthepressbox.com/dca-dcihistory) has the most complete record of drum corps scores
 from before the internet. I'm grateful it exists, and without it [DCI Scores](https://dciscores.com)
 would have no history before 1992 at all.
 

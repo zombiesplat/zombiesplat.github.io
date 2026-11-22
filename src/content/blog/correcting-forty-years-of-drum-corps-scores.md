@@ -13,7 +13,7 @@ draft: false
 
 The History pages count world titles, champions and records. But until this fall the database had no DCI or DCA scores before 1992, so as far as the site knew, the 70s and 80s never happened. Blue Devils' title count was wrong. The Garfield Cadets' run in the 80s didn't exist. Anyone who marched before 1992 couldn't find their season.
 
-The best record of those years is [From The Pressbox](TODO-link): recap pages and season tables going back to 1972, typed in by hand. Without it, none of this would be possible.
+The best record of those years is [From The Pressbox](https://fromthepressbox.com/dca-dcihistory): recap pages and season tables going back to 1972, typed in by hand. Without it, none of this would be possible.
 
 But typed in by hand means typos, and thousands of score sheets means thousands of chances for one.
 
